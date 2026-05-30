@@ -9,7 +9,6 @@ body{
     font-family:Arial, sans-serif;
 }
 
-/* Top Header */
 
 .top{
     padding:15px;
@@ -101,17 +100,6 @@ body{
     display:inline-block;
 }
 
-/* .image{
-    text-align:center;
-    white-space:nowrap;
-}
-
-.image img{
-    width:30%;
-    height:250px;
-    object-fit:cover;
-    border-radius:10px;
-} */
 
 
 .recommnedation{
@@ -138,7 +126,6 @@ body{
     margin:5px;
 }
 
-/* Footer */
 
 footer{
     background:black;
@@ -178,38 +165,3 @@ footer{
     color:#ccc;
 }
 
-/* Responsive */
-
-@media(max-width:768px){
-
-    .location{
-        float:none;
-        display:block;
-        margin:10px 0;
-    }
-
-    .middle input{
-        width:90%;
-        margin-bottom:10px;
-    }
-
-    .login{
-        display:inline-block;
-        margin:8px;
-    }
-
-    .image img{
-        width:95%;
-        min-width:0;
-    }
-
-    .container img{
-        width:45%;
-        min-width:120px;
-    }
-
-    .footer-box{
-        width:90%;
-        text-align:center;
-    }
-}
