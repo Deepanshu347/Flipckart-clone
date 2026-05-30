@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+
+.logo,
+.travel {
+    display: inline-block;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    color: black;
+    background-color: yellow;
+}
+
+.location {
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 50%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.travel {
+    background-color: #e2e2e2;
+    color: black;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle input {
+    outline: none;
+    border: 2px solid dodgerblue;
+    width: 65%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+
+.bottom {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.bottom .box {
+    width: 70px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 4px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bottom .box{
+
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: rgb(105, 103, 103);
+    margin-top: 20px;
+}
+
+
+.image img {
+    height: 200px;
+    width: 380px;
+    border-radius: 9px;
+}
+
+.recommnedation {
+    background-color: yellowgreen;
+    height: auto;
+    width: 100%;
+    height: 300px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 6px;
+
+    font-weight: bolder;
+    margin: 8px 2px;
+    padding: 8px;
+}
+
+
+
+.description,
+.about,
+.help {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.footer-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    margin-left: 2%;
+}
+
+.footer-box h3 {
+    color: #878787;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-box p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
+.footer-bottom {
+    border-top: 1px solid #454d5e;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.container img {
+    height: 250px;
+    width: 220px;
+    padding: 15px;
+}
